@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.container{
+    padding: 30px;
+    margin: 100px auto;
+    height: 100px;
+    width:400px;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    margin-left: 70px;
+
+}
+
