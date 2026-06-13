@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess A Number</title>
+    <!-- <link rel="stylesheet" href="guess.css"> -->
+     <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+            margin: 0px;
+            padding: 0px;
+        }
+        #wrapper{
+            /* padding: 20px; */
+            margin: 200px auto;
+            height: 500px;
+            width: 300px;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* text-align: center; */
+        }
+        #guess{
+            font-size: 40px;
+            /* margin: 10px; */
+          
+        }
+        #guessField{
+            width: 80%;
+            height: 35px;
+            margin: 10px;
+        }
+        #subt{
+             width:50% ;
+            height: 35px;
+            margin-top: 20px;
+            margin-left: 45px;
+            background-color: black;
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+        }
+        .resultParas{
+            /* text-align: center; */
+            margin: 30px;
+
+        }
+
+     </style>
+</head>
+<body>
+    <div id="wrapper">
+        
+        <form>
+        <label for="guessField" id="guess">Guess a Number</label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        </form>
+        <div class="resultParas">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lohi"></p>
+        </div>
+        
+    </div>
+</body>
+<script src="guess.js"></script>
+</html>
